@@ -2,7 +2,7 @@
 -- MIT Licensed
 
 Name: cereal-derive
-Version: 0.1.0
+Version: 0.1.1
 License: GPL-3
 License-File: COPYING
 Author: Jared Hance
@@ -16,7 +16,7 @@ Description: This package provides deriveGet and derivePut which
     implements Generic. Naturally, this can be used with -XDeriveGeneric to not     have to write any boilerplate code.
 
 Library
-    Build-Depends: base < 4.5,
+    Build-Depends: base < 4.6,
                    cereal < 0.4,
                    ghc-prim < 0.3
     Ghc-Prof-Options: -prof -auto-all -caf-all -rtsopts
